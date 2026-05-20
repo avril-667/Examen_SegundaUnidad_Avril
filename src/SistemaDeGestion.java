@@ -5,7 +5,10 @@ public class SistemaDeGestion {
         class Estudiante extends {
             private int carnet;
             public Estudiante(String grado, int carnet){
-
+                this.carnet = carnet;
+            }
+            public void mostrarinfo(){
+                System.out.println("Estudiante : " + carnet);
             }
         }
     }
